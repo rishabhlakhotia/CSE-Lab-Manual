@@ -1,4 +1,4 @@
-# Data-Structure-in-C-Lab
+# CSE Lab Manual
 This repsitory contains all the Data structure in C Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
 
 ## Getting Started
