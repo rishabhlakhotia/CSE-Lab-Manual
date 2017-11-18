@@ -6,7 +6,7 @@ Several options are available to get started:
 * Clone the repo at `git clone https://github.com/rishabhlakhotia/CSE-Lab-Manual`
 * Fork the repsitory if you think you can contribute back
 
-## [List of the programs](/Programs)
+## List of the programs
 1. Write a C program to find best of two elements from an array using pointers.
 
 2. Write an algorithm to create a student database using structure with following fields: USN, Name and Semester for 10 students and sort it according to USN using bubble sort.
