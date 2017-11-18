@@ -14,5 +14,8 @@ All the codes in this repo are inspired from the Autonomous curriculum of Dayana
    * Data Structure in C Lab
    * OOPS in Java Lab
 
+## Contributors
+1. Rishabh Lakhotia ([GitHub](https://github.com/rishabhlakhotia))
+2. Siddharth Singh ([GitHub](https://github.com/cddharthsingh))
 
 *Disclaimer: I may have changed some of the codes for better functionality.*
