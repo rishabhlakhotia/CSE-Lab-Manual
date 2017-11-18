@@ -15,4 +15,4 @@ All the codes in this repo are inspired from the Autonomous curriculum of Dayana
    * OOPS in Java Lab
 
 
-*Disclaimer: I've changed some of the codes for better functionality.*
+*Disclaimer: I may changed some of the codes for better functionality.*

@@ -39,5 +39,3 @@ Several options are available to get started:
   * Postorder Traversal
 
 12. Write a C program to construct a BST for the given array elements and display the elements using the array indexing.
-
-*Disclaimer: I've changed some of the codes for better functionality.*
