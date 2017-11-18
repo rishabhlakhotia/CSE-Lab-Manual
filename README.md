@@ -18,4 +18,4 @@ All the codes in this repo are inspired from the Autonomous curriculum of Dayana
 1. Rishabh Lakhotia ([Github](https://www.github.com/rishabhlakhotia))
 2. Siddharth Singh ([Github](https://www.github.com/cddharthsingh))
 
-*Disclaimer: I may changed some of the codes for better functionality.*
+*Disclaimer: I may have changed some of the codes for better functionality.*
