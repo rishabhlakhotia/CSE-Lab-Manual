@@ -33,7 +33,7 @@ Several options are available to get started:
 
 10. Design a C Program to create a max heap of integers by accepting one element at a time and by inserting it immediately in to the heap. Use the array representation for the heap. Finally display the heap.
 
-11. Design a C program to create a Binary Search Tree and perform the following operations:
+11. Design a C program to create a Binary Search Tree and perform the following operations
    * Inorder Traversal
    * Preorder Traversal
    * Postorder Traversal
