@@ -18,14 +18,14 @@ Several options are available to get started:
 5. Design a C program to evaluate a valid postfix expression using stack.
 
 6. Design a C program to simulate the working of a queue of integers using an array. Provide the following operations:
-  * Insert
-  * Delete
-  * Display
+   * Insert
+   * Delete
+   * Display
 
 7. Design a C program to perform following operations on Singly Linked List
-  * Insert the node at the beginning
-  * Insert the node at the end of the List
-  * Display the List
+   * Insert the node at the beginning
+   * Insert the node at the end of the List
+   * Display the List
 
 8. Write a C Program to implement Singly Linked List using stack principles.
 
@@ -34,8 +34,8 @@ Several options are available to get started:
 10. Design a C Program to create a max heap of integers by accepting one element at a time and by inserting it immediately in to the heap. Use the array representation for the heap. Finally display the heap.
 
 11. Design a C program to create a Binary Search Tree and perform the following operations:
-  * Inorder Traversal
-  * Preorder Traversal
-  * Postorder Traversal
+   * Inorder Traversal
+   * Preorder Traversal
+   * Postorder Traversal
 
 12. Write a C program to construct a BST for the given array elements and display the elements using the array indexing.
