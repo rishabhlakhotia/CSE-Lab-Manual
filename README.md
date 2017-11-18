@@ -11,7 +11,7 @@ All the codes in this repo are inspired from the Autonomous curriculum of Dayana
 
 ## List of Labs in this Repository
 1. III Semester
-      i. Data Structure in C Lab
-      ii. OOPS in Java Lab
+      * Data Structure in C Lab
+      * OOPS in Java Lab
 
 *Disclaimer: I've changed some of the codes for better functionality.*
