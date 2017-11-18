@@ -3,7 +3,7 @@ This repsitory contains all the Data structure in C Lab's program in the Autonom
 
 ## Getting Started
 Several options are available to get started:
-* Clone the repo at `git clone https://github.com/rishabhlakhotia/Data-Structure-in-C-Lab`
+* Clone the repo at `git clone https://github.com/rishabhlakhotia/CSE-Lab-Manual`
 * Fork the repsitory if you think you can contribute back
 
 ## [List of the programs](/Programs)
