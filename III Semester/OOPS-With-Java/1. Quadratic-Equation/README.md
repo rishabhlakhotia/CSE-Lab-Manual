@@ -1,4 +1,4 @@
-##Expected Output
+## Expected Output
 Given quadratic equation:ax^2 + bx + c
 Enter a:2
 Enter b:3

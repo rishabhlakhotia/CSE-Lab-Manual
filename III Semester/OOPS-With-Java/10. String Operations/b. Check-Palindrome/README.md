@@ -1,4 +1,4 @@
-##Expected Output
+## Expected Output
 Enter a string to check if it is a palindrome: madam
 Entered string is a palindrome.
 

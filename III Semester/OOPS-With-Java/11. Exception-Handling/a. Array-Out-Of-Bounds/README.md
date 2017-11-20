@@ -1,4 +1,4 @@
-##Expected Output
+## Expected Output
 The lottery numbers are ...
 ..4
 ..8

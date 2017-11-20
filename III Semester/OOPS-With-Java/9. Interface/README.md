@@ -1,4 +1,4 @@
-##Expected Output
+## Expected Output
 Bus Steering is round and medium sized
 Always use brakes to stop the bus.
 Lorry Steering is round and big sized

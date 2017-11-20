@@ -1,4 +1,4 @@
-##Expected Output
+## Expected Output
 Enter word: hello
 Middle = l
 
