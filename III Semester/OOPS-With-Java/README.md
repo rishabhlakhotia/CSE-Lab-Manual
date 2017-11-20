@@ -32,7 +32,7 @@ Several options are available to get started:
     * Count the total number of characters in the string.
 
 11. Exception Handling programs
-   * Java program that implements ArrayIndexOutofBound Exception using built-in-Exception.
-   * Java program to identify the significance of finally block in handling exceptions.
+    * Java program that implements ArrayIndexOutofBound Exception using built-in-Exception.
+    * Java program to identify the significance of finally block in handling exceptions.
 
 12. Write a Java program that creates three threads. First thread displays “Good Morning“, every one second. The second thread displays “Hello” every two seconds and the third thread displays “Welcome” every three seconds.
