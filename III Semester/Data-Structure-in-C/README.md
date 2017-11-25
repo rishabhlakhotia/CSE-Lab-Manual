@@ -1,10 +1,10 @@
 # Data-Structure-in-C-Lab
-This repsitory contains all the Data structure in C Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
+This repository contains all the Data structure in C Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
 
 ## Getting Started
 Several options are available to get started:
 * Clone the repo at `git clone https://github.com/rishabhlakhotia/CSE-Lab-Manual`
-* Fork the repsitory if you think you can contribute back
+* Fork the repository if you think you can contribute back
 
 ## List of the programs
 1. Write a C program to find best of two elements from an array using pointers.

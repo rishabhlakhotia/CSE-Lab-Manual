@@ -1,6 +1,9 @@
 # Data-Structure-in-C-Lab
 This repsitory contains all the Data structure in C Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
 
+# OOPS-With-Java-Lab
+This repsitory contains all the OOPS With Java Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
+
 ## Getting Started
 Several options are available to get started:
 * Clone the repo at `git clone https://github.com/rishabhlakhotia/CSE-Lab-Manual`
