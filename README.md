@@ -13,10 +13,11 @@ All the codes in this repo are inspired from the Autonomous curriculum of Dayana
 1. III Semester
    * [Data Structure in C Lab](/III%20Semester/Data-Structure-in-C)
    * [OOPS with Java Lab](/III%20Semester/OOPS-With-Java)
-   
+
 
 ## Contributors
 1. Rishabh Lakhotia ([GitHub](https://github.com/rishabhlakhotia))
 2. Siddharth Singh ([GitHub](https://github.com/cddharthsingh))
+3. Rewant Soni ([GitHub](https://github.com/rewantsoni))
 
 *Disclaimer: I may have changed some of the codes for better functionality.*
