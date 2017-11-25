@@ -11,7 +11,7 @@ All the codes in this repo are inspired from the Autonomous curriculum of Dayana
 
 ## List of Labs in this Repository
 1. I & II Semester
-   * [programming in C Lab](/I%20%25%20II%20Semester/Programming-in-C)
+   * [Programming in C Lab](/I%20%26%20II%20Semester/Programming-in-C)
 
 2. III Semester
    * [Data Structure in C Lab](/III%20Semester/Data-Structure-in-C)
