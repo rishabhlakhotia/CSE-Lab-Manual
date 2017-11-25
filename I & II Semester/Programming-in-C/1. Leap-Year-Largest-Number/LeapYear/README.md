@@ -1,4 +1,4 @@
-# Sample Output
+# Expected Output
 
 Run 1:
 

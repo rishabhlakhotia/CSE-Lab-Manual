@@ -1,5 +1,4 @@
 # Sample Output
-
 Run 1:
 
 Enter three numbers:
