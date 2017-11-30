@@ -1,8 +1,13 @@
 #include<stdio.h>
 #include<math.h>
-void main(){
+
+void main() {
+
+  //Declare Variables
   float a[10],*ptr,mean=0,sum=0,sd=0,sumsd=0;
   int i,n;
+
+  //Taking inputs
   printf("\nEnter the number of element\n");
   scanf("%d",&n);
   printf("\nEnter the elements:\n");
