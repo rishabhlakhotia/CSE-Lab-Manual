@@ -1,4 +1,4 @@
-/* Program to find element in a Sparse matrix */
+// Program to find element in a Sparse matrix 
 #include<stdio.h>
 #include<conio.h>
 
@@ -6,12 +6,12 @@
 void main()
 {
 	int i,j,p,q,a[10][10],k=0,key;
-	/* Sparse matrix structure */
+	// Sparse matrix structure
 	struct matrix
 	{
 		int r,c,v;
 	}m[10];
-	/* Input the Sparse matrix */
+	// Input the Sparse matrix 
 	printf("Enter no. of Rows & Cols: ");
 	scanf("%d %d",&p,&q);
 	printf("Enter the Matrix: ");
@@ -27,7 +27,7 @@ void main()
 				k++;
 			}
 		}
-	/* printing the non-zero values */
+	// printing the non-zero values 
         for(i=0;i<p;i++)
 		for(j=0;j<q;j++)
 		{
@@ -41,7 +41,7 @@ void main()
 	{
 		printf("\n%d\t%d\t%d",m[k].r,m[k].c,m[k].v);
 	}
-	/* taking in the key & Searching it */
+	// taking in the key & Searching it 
 	printf("\n\nEnter the Search element: ");
 	scanf("%d",&key);
 	for(i=0;i<k;i++)
