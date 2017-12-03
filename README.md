@@ -1,13 +1,13 @@
 # CSE Lab Manual
-This repsitory contains all the Data structure in C Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
+This repsitory contains all the Lab programs encountered in the Autonomous curriculum of Dayananda Sagar College of Engineering.
 
 ## Getting Started
 Several options are available to get started:
-* Clone the repo at `git clone https://github.com/rishabhlakhotia/CSE-Lab-Manual`
+* Clone the repo at `git clone https://github.com/rishabhlakhotia/CSE-Lab-Manual` 
 * Fork the repsitory if you think you can contribute back
 
 ## Source
-All the codes in this repo are inspired from the Autonomous curriculum of Dayananda Sagar College of Engineering of Data Structure in C Lab.
+All the codes in this repo are inspired from the Autonomous curriculum of Dayananda Sagar College of Engineering of different practical courses through the semesters.
 
 ## List of Labs in this Repository
 1. I & II Semester
@@ -23,4 +23,4 @@ All the codes in this repo are inspired from the Autonomous curriculum of Dayana
 2. Siddharth Singh ([GitHub](https://github.com/cddharthsingh))
 3. Rewant Soni ([GitHub](https://github.com/rewantsoni))
 
-*Disclaimer: I may have changed some of the codes for better functionality.*
+*Disclaimer: We may have changed some of the codes for better functionality.*
