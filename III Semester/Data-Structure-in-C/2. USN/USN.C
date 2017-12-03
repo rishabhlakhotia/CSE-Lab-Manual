@@ -1,17 +1,17 @@
-/* Program to sort USN */
+// Program to sort USN 
 #include<stdio.h>
 #include<conio.h>
 
 void main()
 {
 	int i,j,n;
-	/* Structure of student */
+	// Structure of student 
 	struct stud
 	{	int USN, sem;
 		char name[30];
 	}s[10],t;
 	clrscr();
-	/* Retrieving info of students */
+	// Retrieving info of students 
 	printf("Enter the number of students\n");
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
@@ -23,7 +23,7 @@ void main()
 		printf("Sem: ");
 		scanf("%d",&s[i].sem);
 	}
-	/* Bubble sort with USN */
+	// Bubble sort with USN 
 	for(i=0;i<n-1;i++)
 	for(j=0;j<n-1-i;j++)
 	{ if(s[j].USN>s[j+1].USN)
@@ -32,7 +32,7 @@ void main()
 			s[j+1]=t;
 		}
 	}
-	/* Printing student info */
+	// Printing student info 
 	printf("\nUSN\tSEM\tNAME\n");
 	for(i=0;i<n;i++)
 	{	printf("%d\t%d\t%s\n",s[i].USN,s[i].sem,s[i].name); }
