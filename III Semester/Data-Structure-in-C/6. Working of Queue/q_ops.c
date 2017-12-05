@@ -24,15 +24,17 @@ void main()
 void qinsert(int item, int *rear, int q[])
 	{ if(*rear==size-1)
 		printf("Queue is full\n");
-	  else
-	       q[++*rear]=item;
+	  else {
+			*rear = *rear + 1;
+	     q[*rear] = item;
+		}
 	}
 void qdelete(int *front, int *rear, int q[])
 	{ if(*front>*rear)
 		printf("Queue is empty\n");
 	  else
 		{printf("The Deleted element is %d",q[*front]);
-	       *front++;
+	       *front = &front + 1;
 		}
 	}
 void qdisplay(int front, int rear, int q[])
