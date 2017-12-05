@@ -13,16 +13,16 @@ struct sll * insert_rear(struct sll * f) {
     t = (struct sll * ) malloc(sizeof(struct sll));
     printf("enter the information");
     scanf("%d", & item);
-    t - > info = item;
-    t - > nxt = NULL;
+    t -> info = item;
+    t -> nxt = NULL;
     if (f == NULL)
         return t;
     else {
         p = f;
-        while (p - > nxt != NULL) {
-            p = p - > nxt;
+        while (p -> nxt != NULL) {
+            p = p -> nxt;
         }
-        p - > nxt = t;
+        p -> nxt = t;
     }
     return f;
 }
@@ -33,22 +33,22 @@ struct sll * delete_rear(struct sll * f) {
         printf("List Empty");
         return f;
     }
-    if (f - > nxt == NULL) //only one node present
+    if (f -> nxt == NULL) //only one node present
     {
-        printf("Item deleted is %d", f - > info);
+        printf("Item deleted is %d", f -> info);
         free(f);
         return NULL;
     }
     //many nodes so traverse until NULL
     p = NULL;
     c = f;
-    while (c - > nxt != NULL) {
+    while (c -> nxt != NULL) {
         p = c;
-        c = c - > nxt;
+        c = c -> nxt;
     }
-    printf("Item Deleted is %d", c - > info);
+    printf("Item Deleted is %d", c -> info);
     free(c);
-    p - > nxt = NULL;
+    p -> nxt = NULL;
     return f;
 }
 
@@ -57,9 +57,9 @@ void display(struct sll * f) {
     if (f == NULL)
         printf("Empty List");
     t = f;
-    while (t - > info != NULL) {
-        printf("%d\t", t - > info);
-        t = t - > nxt;
+    while (t -> info != NULL) {
+        printf("%d\t", t -> info);
+        t = t -> nxt;
     }
 }
 
