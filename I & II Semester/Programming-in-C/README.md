@@ -31,3 +31,6 @@ Several options are available to get started:
 9.  Design and develop a C program to create a structure called Employee to maintain a record of details using an array of structures with four fields(Emp_name, Emp_id, Emd-sal, Emp_age). Assume appropriate data type for each field.Print the Employee details in Tabular Format.
 
 10. Write a C program using pointers to compute the sum, mean and standard deviation of all elements in an array of n real numbers.
+
+## Contributing
+If you're having problems, or have a suggestion, please log and issue on GitHub. If you'd like to have a crack yourself, fork the repository and make a pull request.

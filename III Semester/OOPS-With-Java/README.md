@@ -4,7 +4,7 @@ This repsitory contains all the OOPS With Java Lab's program in the Autonomous c
 ## Getting Started
 Several options are available to get started:
 * Clone the repo at `git clone https://github.com/rishabhlakhotia/CSE-Lab-Manual`
-* Fork the repsitory if you think you can contribute back
+* Fork the repository if you think you can contribute back
 
 ## List of the programs
 1. Java program that prints all real solutions to the quadratic equation ax2 + bx + c = 0. Read in a, b, c and use the quadratic formula. If the discriminate b2-4ac is negative, display a message stating that there are no real solutions.
@@ -36,3 +36,6 @@ Several options are available to get started:
     * Java program to identify the significance of finally block in handling exceptions.
 
 12. Write a Java program that creates three threads. First thread displays “Good Morning“, every one second. The second thread displays “Hello” every two seconds and the third thread displays “Welcome” every three seconds.
+
+## Contributing
+If you're having problems, or have a suggestion, please log and issue on GitHub. If you'd like to have a crack yourself, fork the repository and make a pull request.
