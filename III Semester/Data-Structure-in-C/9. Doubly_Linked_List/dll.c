@@ -2,6 +2,7 @@
 #include <conio.h>
 #include <alloc.h>
 #include <process.h>
+
 struct node {
     int info;
     struct node * llink, * rlink;
@@ -12,7 +13,7 @@ void insfront() {
     struct node * temp;
     temp = (struct node * ) malloc(sizeof(struct node));
     printf("Enter the item\n");
-    scanf("%d", & temp -> info);
+    scanf("%d", &temp -> info);
     temp -> llink = NULL;
     temp -> rlink = NULL;
     if (root == NULL)
@@ -31,7 +32,7 @@ void inskey() {
         printf("list is empty\n");
     else {
         printf("enter key\n");
-        scanf("%d", & key);
+        scanf("%d", &key);
         if (key == root -> info) {
             flag = 1;
             insfront();
@@ -42,7 +43,7 @@ void inskey() {
                     flag = 1;
                     temp = (struct node * ) malloc(sizeof(struct node));
                     printf("enter the item\n");
-                    scanf("%d", & temp -> info);
+                    scanf("%d", &temp -> info);
                     prev = cur -> llink;
                     prev -> rlink = temp;
                     temp -> llink = prev;
@@ -65,7 +66,7 @@ void delkey() {
     else {
         cur = root;
         printf("enter the item to be deleted\n");
-        scanf("%d", & key);
+        scanf("%d", &key);
         if (cur == root && cur -> info == key) {
             flag = 1;
             root = root -> rlink;
@@ -112,7 +113,7 @@ void main() {
     for (;;) {
         printf("\n1.insert front\n2.insert before key\n3.delete from key\n4.display\n5.exit\n");
         printf("enter ur choice\n");
-        scanf("%d", & ch);
+        scanf("%d", &ch);
         switch (ch) {
         case 1:
             insfront();

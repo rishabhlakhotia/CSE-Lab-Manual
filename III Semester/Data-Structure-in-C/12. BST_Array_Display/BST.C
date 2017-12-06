@@ -33,15 +33,15 @@ void main() {
     printf("\n1.bst\n2.display\n");
     for (;;) {
         printf("\nEnter choice\n");
-        scanf("%d", & ch);
+        scanf("%d", &ch);
         switch (ch) {
         case 1:
             for (i = 0; i < SIZE; i++) a[i] = NULL;
             printf("\enter no of ele to enter\n");
-            scanf("%d", & j);
+            scanf("%d", &j);
             printf("\nEnter the array of elements\n");
             for (i = 0; i < j; i++) {
-                scanf("%d", & ele);
+                scanf("%d", &ele);
                 bst(ele);
             }
             break;

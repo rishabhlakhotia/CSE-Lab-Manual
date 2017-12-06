@@ -1,18 +1,23 @@
+// C Program to implement Singly Linked List using stack principles.
+
 #include <stdio.h>
 #include <alloc.h>
 #include <conio.h>
 
+//Define Structures
 struct sll {
     int info;
     struct sll * nxt;
 };
 
 int ch, item;
-struct sll * insert_rear(struct sll * f) {
-    struct sll * t, * p;
+
+//Define Function to insert in the rear
+struct sll * insert_rear(struct sll *f) {
+    struct sll *t, *p;
     t = (struct sll * ) malloc(sizeof(struct sll));
     printf("enter the information");
-    scanf("%d", & item);
+    scanf("%d", &item);
     t -> info = item;
     t -> nxt = NULL;
     if (f == NULL)
@@ -27,8 +32,9 @@ struct sll * insert_rear(struct sll * f) {
     return f;
 }
 
-struct sll * delete_rear(struct sll * f) {
-    struct sll * c, * p;
+// Function to delete in the rear
+struct sll * delete_rear(struct sll *f) {
+    struct sll *c, *p;
     if (f == NULL) {
         printf("List Empty");
         return f;
@@ -52,8 +58,9 @@ struct sll * delete_rear(struct sll * f) {
     return f;
 }
 
-void display(struct sll * f) {
-    struct sll * t;
+//Funtion to display list
+void display (struct sll *f) {
+    struct sll *t;
     if (f == NULL)
         printf("Empty List");
     t = f;
@@ -63,14 +70,15 @@ void display(struct sll * f) {
     }
 }
 
+// Main Function
 void main() {
-    struct sll * f = NULL;
+    struct sll *f = NULL;
     int cou;
     clrscr();
     for (;;) {
         printf("\n1.PUSH \n2.POP\n3.Display\n 4..Exit\n");
         printf("Enter choice");
-        scanf("%d", & ch);
+        scanf("%d", &ch);
         switch (ch) {
         case 1:
             f = insert_rear(f);

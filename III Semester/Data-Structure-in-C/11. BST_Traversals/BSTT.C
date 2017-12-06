@@ -20,15 +20,15 @@ void main() {
         printf("\nBinary Search Tree Operations\n\n");
         printf("1:Creation of bst\n2:Inorder\n3:Preorder\n4:Postorder\n5:exit");
         printf("\nEnter a choice: ");
-        scanf("%d", & opn);
+        scanf("%d", &opn);
         switch (opn) {
         case 1:
             root = NULL;
             printf("\nBST for how many nodes?: ");
-            scanf("%d", & n);
+            scanf("%d", &n);
             for (i = 1; i < n + 1; i++) {
                 printf("\nRead the data for the node %d? ", i);
-                scanf("%d", & elem);
+                scanf("%d", &elem);
                 root = create_bst(root, elem);
             }
             printf("\nBST with %d nodes is ready to use.\n", n);
