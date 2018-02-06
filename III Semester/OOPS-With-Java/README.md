@@ -1,5 +1,5 @@
 # OOPS With Java
-This repsitory contains all the OOPS With Java Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
+This repository contains all the OOPS With Java Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
 
 ## Getting Started
 Several options are available to get started:
