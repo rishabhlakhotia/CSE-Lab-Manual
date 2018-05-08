@@ -1,4 +1,4 @@
-# OOPS With Java
+# Design and Analysis of Algorithm Lab
 This repository contains Design and Analysis of Algorithm's Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
 
 ## Getting Started

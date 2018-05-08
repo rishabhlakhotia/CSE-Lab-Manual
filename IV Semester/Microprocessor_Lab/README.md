@@ -1,4 +1,4 @@
-# OOPS With Java
+# Microprocessor Lab
 This repository contains Microprocessor Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
 
 ## Getting Started
