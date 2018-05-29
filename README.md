@@ -26,7 +26,8 @@ All the codes in this repo are inspired from the Autonomous curriculum of Dayana
 1. Rishabh Lakhotia ([GitHub](https://github.com/rishabhlakhotia))
 2. Siddharth Singh ([GitHub](https://github.com/cddharthsingh))
 3. Rewant Soni ([GitHub](https://github.com/rewantsoni))
-4. Akshaj Jain ([GitHub](https://github.com/aksj98))
+4. Mohammad Ataaur Rahman ([Github](https://github.com/Ataago))
+5. Akshaj Jain ([GitHub](https://github.com/aksj98))
 
 *Disclaimer: We may have changed some of the codes for better functionality.*
 
