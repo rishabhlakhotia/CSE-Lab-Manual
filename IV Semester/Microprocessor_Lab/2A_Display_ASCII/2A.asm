@@ -2,7 +2,7 @@
 
 .data
 msg_1 db 10,13,'Enter a Alphanumeric Character: $'
-msg_2 db 'ASCII value is: $'
+msg_2 db 10,13,'ASCII value is: $'
 char dw ?
 
 .code
