@@ -9,8 +9,8 @@ Several options are available to get started:
 ## How to work with DBMS
 1. Create a Database
 `mysql> CREATE DATABASE Test;
-mysql> USE Test;
-`
+mysql> USE Test;`
+
 2. Create table
 `mysql> SOURCE /dbms/problem/create_tables.sql`
 Use only absolute path
