@@ -21,6 +21,10 @@ All the codes in this repo are inspired from the Autonomous curriculum of Dayana
     * [Design and Analysis of Algorithm Lab](/IV%20Semester/ADA_Lab)
     * [Microprocessor Lab](/IV%20Semester/Microprocessor_Lab)
 
+4. V Semester
+    * [Database Management System Lab](/V%20Semester/Database-Management-System)
+    * [Computer Networks Lab](/V%20Semester/Computer-Networks)
+
 
 ## Contributors
 1. Rishabh Lakhotia ([GitHub](https://github.com/rishabhlakhotia))
