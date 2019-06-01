@@ -25,14 +25,17 @@ All the codes in this repo are inspired from the Autonomous curriculum of Dayana
     * [Database Management System Lab](/V%20Semester/Database-Management-System)
     * [Computer Networks Lab](/V%20Semester/Computer-Networks)
 
+5. VI Semester
+  #  * [Internet and Web Technologies Lab](/VI%20Semester/Database-Management-System)
+    * [Computer Graphics Lab](/VI%20Semester/Computer_Graphics)
+
 
 ## Contributors
 1. Rishabh Lakhotia ([GitHub](https://github.com/rishabhlakhotia))
 2. Siddharth Singh ([GitHub](https://github.com/cddharthsingh))
 3. Rewant Soni ([GitHub](https://github.com/rewantsoni))
 4. Mohammad Ataaur Rahman ([Github](https://github.com/Ataago))
-5. Akshaj Jain ([GitHub](https://github.com/aksj98))
-6. Anush DP ([GitHub](https://github.com/Anush-DP))
+5. Anush DP ([GitHub](https://github.com/Anush-DP))
 
 *Disclaimer: We may have changed some of the codes for better functionality.*
 
