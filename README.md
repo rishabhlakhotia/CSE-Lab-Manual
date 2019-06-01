@@ -26,8 +26,8 @@ All the codes in this repo are inspired from the Autonomous curriculum of Dayana
     * [Computer Networks Lab](/V%20Semester/Computer-Networks)
 
 5. VI Semester
-  #  * [Internet and Web Technologies Lab](/VI%20Semester/Database-Management-System)
-    * [Computer Graphics Lab](/VI%20Semester/Computer_Graphics)
+    * [Internet and Web Technologies Lab](/VI%20Semester/Internet-and-Web-Technologies)
+    * [Computer Graphics Lab](/VI%20Semester/Computer-Graphics)
 
 
 ## Contributors
