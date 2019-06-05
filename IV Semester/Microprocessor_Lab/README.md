@@ -1,5 +1,5 @@
 # Microprocessor Lab
-This repository contains Microprocessor Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
+This repository contains Microprocessor Lab's programs in the Autonomous curriculum of Dayananda Sagar College of Engineering.
 
 ## Getting Started
  
@@ -8,6 +8,9 @@ Part-A contains all 8086 assembly programs, including 8255/82C55 interface progr
 
 ### Part-B (8051)
 Part-B contains all the 8051 assembly programs as per the manual.
+
+### Extra
+Extra programs(present in the "Extra" directory) are not included in the manual. They are just programs to try by yourself or for practice.
 
 ## Contributing
 Several options are available to get started:
