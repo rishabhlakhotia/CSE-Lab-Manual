@@ -2,12 +2,15 @@
 This repository contains Microprocessor Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
 
 ## Getting Started
+ 
+### Part-A (8086)
+Part-A contains all 8086 assembly programs, including 8255/82C55 interface programs as per the manual.
+
+### Part-B (8051)
+Part-B contains all the 8051 assembly programs as per the manual.
+
+## Contributing
 Several options are available to get started:
 * Clone the repo at `git clone https://github.com/rishabhlakhotia/CSE-Lab-Manual`
 * Fork the repository if you think you can contribute back
-
-<!-- ## List of the programs
-1. Binary Search in a sorted Array -->
-
-## Contributing
-If you're having problems, or have a suggestion, please log and issue on GitHub. If you'd like to have a crack yourself, fork the repository and make a pull request.
+* If you're having problems, or have a suggestion, please log and issue on GitHub. 
