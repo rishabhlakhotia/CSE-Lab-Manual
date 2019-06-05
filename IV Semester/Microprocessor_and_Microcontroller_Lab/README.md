@@ -10,7 +10,7 @@ Part-A contains all 8086 assembly programs, including 8255/82C55 interface progr
 Part-B contains all the 8051 assembly programs as per the manual.
 
 ### Extra
-Extra programs (present in the "[Extra](/Extra/)" directory) are not in the manual. They are just programs to try by yourself or for practice.
+Extra programs (present in the "[Extra](/IV%20Semester/Microprocessor_and_Microcontroller_Lab/Extra/)" directory) are not in the manual. They are just programs to try by yourself or for practice.
 
 ## Contributing
 Several options are available to get started:
