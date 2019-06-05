@@ -19,7 +19,7 @@ All the codes in this repo are inspired from the Autonomous curriculum of Dayana
 
 3. IV Semester
     * [Design and Analysis of Algorithm Lab](/IV%20Semester/ADA_Lab)
-    * [Microprocessor Lab](/IV%20Semester/Microprocessor_Lab)
+    * [Microprocessor and Microcontroller Lab](/IV%20Semester/Microprocessor_and_Microcontroller_Lab)
 
 4. V Semester
     * [Database Management System Lab](/V%20Semester/Database-Management-System)

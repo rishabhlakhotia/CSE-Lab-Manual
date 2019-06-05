@@ -1,8 +1,8 @@
 # Design and Analysis of Algorithm Lab
 This repository contains Design and Analysis of Algorithm's Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
 
-# Microprocessor-Lab
-This repository contains all the Microprocessor Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
+# Microprocessor and Microcontroller Lab
+This repository contains all the Microprocessor and Microcontroller Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
 
 <!-- # OOPS-With-Java-Lab
 This repository contains all the OOPS With Java Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering. -->
