@@ -1,0 +1,14 @@
+;WRITE A PROGRAM TO CHECK WHETHER GIVEN 8-BIT NUMBER IS PALINDROME OR NOT. IF PALINDROME STORE FFH IN ACCUMULATOR ELSE STORE 00H IN ACCUMULATOR.
+
+org 00h
+mov r0,#0xFE
+mov b,r0
+mov a,b
+swap a
+cjne a,b,label1
+mov a,#0xFF
+sjmp endp1
+label1:
+mov a,#0x00
+endp1: 
+end
