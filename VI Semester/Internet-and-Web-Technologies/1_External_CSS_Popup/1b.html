@@ -1,0 +1,120 @@
+<html>
+  <head>
+
+    <style type="text/css">
+      h1 {
+      text-align: center;
+      font:bold 30px Georgia, serif;
+      color: white;
+      margin: 5px;
+      }
+
+      h2.head{
+      text-align: center;
+      font:bold 25px Georgia, serif;
+      color: white;
+      margin: 0px;
+      }
+
+      h4{
+      text-align: center;
+      font:bold 20px Georgia, serif;
+      color: white;
+      margin: 40px;
+      }
+
+      .button {
+      font-size: 1em; /*emphasize*/
+      padding: 20px;
+      color: white;
+      background:blue;
+      border: 5px solid red;
+      border-radius: 20px 20px 20px 20px;
+      text-decoration: none;
+      transition: 0.1s;
+      }
+
+      .button:hover {
+      background: green;
+      }
+
+      .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: inline;/*rgba(0, 0, 0, 0.7); /*background on open of popup*/
+      transition: 100ms;
+      visibility: hidden;
+      opacity: 0; /*onclick of X opacity to 0*/
+      }
+
+      .overlay:target {
+      visibility: visible;
+      opacity: 1;
+      }
+
+      .popup {
+      margin: 70px auto;
+      padding: 20px;
+      background: #fff; /*white*/
+      border-radius: 15px;
+      width: 40%;
+      position: relative;
+      transition: all 5s ease-in-out;
+      }
+
+      .popup .h2 {
+      margin-top: 0;
+      color: blue;
+      font-family: Tahoma, Arial, sans-serif;
+      text-align:center;
+      }
+
+      .popup .close {
+      position: absolute;
+      top: 15px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+      }
+
+      .popup .close:hover {
+      color: red;
+      }
+
+      .popup .content {
+      max-height: 30%;
+      overflow: auto;
+      }
+    </style>
+
+  </head>
+
+  <body bgcolor="black">
+    <br/><br/><br/>
+    <h1> DAYANANDA SAGAR COLLEGE OF ENGINEERING </h1>
+    <h2 class="head"> Department of Computer Science & Engineering </h2>
+    <h4> LAB PROGRAM 1B: Demonstration of Popup Menu </h4>
+    <br/><br/>
+
+    <center><a class="button" href="#popup1">CLICK</a></center>
+
+    <form action="">
+      <div id="popup1" class="overlay">
+        <div class="popup">
+          <h2>TEXT Editor</h2>
+          <a class="close" href="#">&times;</a> <!--default is X(missing)-->
+          <div class="content">
+            <textarea rows="5" cols="54""></textarea>
+            <input type="reset" value="clear"> </input>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

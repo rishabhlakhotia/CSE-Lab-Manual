@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+  <head>
+  <script language="JavaScript">
+    function calculation() {
+      var x= prompt("Enter the value to fabbonici");
+      x=parseInt(x);
+
+      var y1 = 0,i,y2 = 1,res;
+
+      if(x < 0 || x == 0) {
+        document.write("series is not possible");
+      }
+
+      if( x == 1) {
+        document.write(y1);
+      }
+
+      if( x > 1) {
+        document.write(y1," &nbsp &nbsp ",y2);
+      }
+
+      for (i = 2; i < x; i++) {
+
+      res = y1+y2;
+      y1 = y2;
+      y2 = res;
+
+      document.write(" &nbsp &nbsp ",res);
+      }// for
+    }
+  </script>
+  </head>
+<body onload="calculation()"> </body> </html>

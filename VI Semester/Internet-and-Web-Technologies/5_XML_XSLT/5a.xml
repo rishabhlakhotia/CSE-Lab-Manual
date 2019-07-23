@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="mystyle.css" type="text/css"?>
+<vtu>
+   <student>
+      <name>Praveen kumar</name>
+      <usn>1ds07is017</usn>
+      <collegeName>dayananad sagar</collegeName>
+      <branch>info science</branch>
+      <year>2007</year>
+      <email>praveen@dsce.org</email>
+   </student>
+
+   <student>
+      <name>Madhu kiran</name>
+      <usn>1ds06is045</usn>
+      <collegeName>dayanand sagar</collegeName>
+      <branch>info science</branch>
+      <year>2006</year>
+      <email>kiran@dsce.org</email>
+   </student>
+
+   <student>
+      <name>mohan kumar</name>
+      <usn>1ds05is067</usn>
+      <collegeName>dayanand sagar</collegeName>
+      <branch>comp science</branch>
+      <year>2005</year>
+      <email>mohan@dsce.org</email>
+   </student>
+</vtu>
+
+
+mystyle.css
+student{clear:both;float:left;}
+name { background: red; color: white }
+usn { color: red;}
+collegeName { display:none}
+branch {color:orange;text-align: right; }
+year{background: red; color: yellow; }
+email{color: blue;}

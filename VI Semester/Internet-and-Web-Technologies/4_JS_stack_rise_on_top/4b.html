@@ -1,0 +1,60 @@
+<html>
+   <head>
+      <script type="text/javascript">
+         var oripos;
+         function movein(curr) {
+           newstack=document.getElementById(curr).style;
+           oripos=newstack.zIndex;
+           newstack.zIndex="10";
+         }
+
+         function moveout(curr) {
+           document.getElementById(curr).style.zIndex=oripos;
+         }
+      </script>
+
+      <style type="text/css">
+         p.one{
+         padding:1in;
+         position:absolute;
+         left:100px;
+         top:50px;
+         background-color:#128ABC;
+         width:150px;
+         z-index:5;
+         }
+
+         p.two{
+         padding:1in;
+         position:absolute;
+         left:130px;
+         top:60px;
+         background-color:#998ABC;
+         width:150px;
+         z-index:3;
+         }
+
+         p.three{
+         padding:1in;
+         position:absolute;
+         left:150px;
+         top:70px;
+         background-color:#FF8AFF;
+         width:150px;
+         z-index:1;
+         }
+
+         p:hover{
+         background-color:#111fff;
+         }
+      </style>
+   </head>
+   <body>
+      <p class="one" id="stack1" onmouseover="movein('stack1')"
+         onmouseout="moveout('stack1')">This is para 1...</p>
+      <p class="two" id="stack2" onmouseover="movein('stack2')"
+         onmouseout="moveout('stack2')">This is para 2...</p>
+      <p class="three" id="stack3" onmouseover="movein('stack3')"
+         onmouseout="moveout('stack3')">This is para 3...</p>
+   </body>
+</html>
