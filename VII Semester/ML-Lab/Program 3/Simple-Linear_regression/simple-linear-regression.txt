@@ -1,0 +1,250 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# # implementation of simple Linear Regression Model
+# ## Step1:Import all necessary libraries
+
+# In[2]:
+
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+get_ipython().magic(u'matplotlib inline')
+
+
+# # step2 :Load dataset
+
+# In[3]:
+
+
+get_ipython().set_next_input(u'df= pd.read_csv');get_ipython().magic(u'pinfo pd.read_csv')
+
+
+# In[ ]:
+
+
+df= pd.read_csv
+
+
+# In[4]:
+
+
+help(pd.read_csv)
+
+
+# In[5]:
+
+
+df=pd.read_csv("housing_prices_SLR.csv",delimiter=',')
+
+
+# In[6]:
+
+
+df.head()
+
+
+# In[7]:
+
+
+df.AREA
+
+
+# In[8]:
+
+
+df.PRICE
+
+
+# In[20]:
+
+
+plt.scatter(df.AREA,df.PRICE,c='blue')
+plt.show()
+
+
+# In[23]:
+
+
+plt.scatter(df.AREA,df.PRICE,c=np.random.random(df.shape[0]))
+#numpy.random.rand(d0, d1, ..., dn)
+#Random values in a given shape.
+
+#Create an array of the given shape and populate it with random samples from a uniform distribution over [0, 1).
+
+#Parameters:
+#d0, d1, …, dn : int, optional
+#The dimensions of the returned array, should all be positive. If no argument is given a single Python float is returned.
+
+#Returns:
+#out : ndarray, shape (d0, d1, ..., dn)
+#Random values.
+plt.show()
+
+
+# In[24]:
+
+
+df.shape
+col=np.random.random(df.shape[0])
+col
+
+
+# In[25]:
+
+
+plt.scatter(df.AREA,df.PRICE,c=col,s=4)
+plt.show()
+
+
+# # Step3:Feature matrix and Target vector
+
+# In[30]:
+
+
+x=df[['AREA']].values#feature Matrix
+y=df.PRICE.values#Target Matrix
+
+
+# In[31]:
+
+
+x[:5] #slicing
+y[:5]
+
+
+# In[32]:
+
+
+print(x[:5]) #slicing
+print(y[:5])
+
+
+# # step4:Split the data into 80-20
+
+# In[33]:
+
+
+#from packagename import function
+from sklearn.model_selection import train_test_split
+
+
+# In[34]:
+
+
+x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=100) #80 20 split,random_state to reproduce the same split everytime
+
+
+# In[35]:
+
+
+print(x_train.shape)
+print(x_test.shape)
+print(x_train.shape)
+print(x_test.shape)
+
+
+# # step5: Fit the line:Train the SLR Model
+
+# In[36]:
+
+
+from sklearn.linear_model import LinearRegression
+
+
+# In[37]:
+
+
+lr_model= LinearRegression()
+
+
+# In[38]:
+
+
+lr_model.fit(x_train,y_train)
+
+
+# In[39]:
+
+
+print(lr_model.intercept_) # (PRICE=(-4481.80028058845)+8.65903854)*AREA
+print(lr_model.coef_)#y=c+mx
+
+
+# In[40]:
+
+
+lr_model=LinearRegression(fit_intercept= False)
+
+
+# In[41]:
+
+
+lr_model.fit(x_train,y_train)
+
+
+# In[42]:
+
+
+print(lr_model.intercept_) # (PRICE=(-4481.80028058845)+8.65903854)*AREA
+print(lr_model.coef_)#y=c+mx
+
+
+# # step6:predict using the model
+
+# In[43]:
+
+
+lr_model.predict(np.array([[2000],[2500]]))
+
+
+# In[44]:
+
+
+from sklearn.metrics import r2_score
+
+
+# In[45]:
+
+
+y_train
+
+
+# In[46]:
+
+
+lr_model.predict(x_train)
+
+
+# # step7:calculating R^2score using tain and test model
+
+# In[47]:
+
+
+r2_score(y_train,lr_model.predict(x_train))  # 1.First way of calculating R2 score
+
+
+# In[48]:
+
+
+r2_score(y_test,lr_model.predict(x_test))
+
+
+# In[49]:
+
+
+lr_model.score(x_test,y_test) #2.second way of calculating R2 score
+
+
+# # step8:Visualizing the model
+
+# In[50]:
+
+
+plt.scatter(x_train[:,0],y_train,c='red')
+plt.scatter(x_test[:,0],y_test,c='blue')
+plt.plot(x_train[:,0],lr_model.predict(x_train),c='y')
+
+
+# In[ ]:
