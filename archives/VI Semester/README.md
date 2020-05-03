@@ -1,5 +1,8 @@
-# System Software and Operating System
-This repository contains all the System Software and Operating System Lab's programs in the Autonomous curriculum of Dayananda Sagar College of Engineering.
+# Internet and Web Technologies
+This repository contains all the IWT Lab's program in the Autonomous curriculum of Dayananda Sagar College of Engineering.
+
+# Computer-Graphics-and-Visualization
+This repository contains the programs of the Computer Graphics and Visualization Lab in the Autonomous curriculum of Dayananda Sagar College of Engineering.
 
 ## Getting Started
 Several options are available to get started:
