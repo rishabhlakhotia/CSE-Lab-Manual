@@ -6,7 +6,7 @@ When contributing to this repository, please first discuss the change you wish t
 
 ### Cloning the repository
 * Fork the repository
-* Clone the repo by running git clone https://github.com/<yourusername\>/CSE-Lab-Manual
+* Clone the repo by running `git clone https://github.com/<yourusername\>/CSE-Lab-Manual`
 
 ### Pull Request Process
 1. Ensure that you have changed all the programs related to one lab. A lab should not be a mix of new and old programs.
