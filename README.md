@@ -32,10 +32,11 @@ All the codes in this repo are inspired from the Autonomous curriculum of Dayana
 
 ## Contributors
 1. Rishabh Lakhotia ([GitHub](https://github.com/rishabhlakhotia))
-2. Siddharth Singh ([GitHub](https://github.com/cddharthsingh))
-3. Rewant Soni ([GitHub](https://github.com/rewantsoni))
-4. Mohammad Ataaur Rahman ([Github](https://github.com/Ataago))
-5. Anush DP ([GitHub](https://github.com/Anush-DP))
+1. Siddharth Singh ([GitHub](https://github.com/cddharthsingh))
+1. Rewant Soni ([GitHub](https://github.com/rewantsoni))
+1. Mohammad Ataaur Rahman ([Github](https://github.com/Ataago))
+1. Anush DP ([GitHub](https://github.com/Anush-DP))
+1. Navneeth ([GitHub](https://github.com/navneeeth))
 
 *Disclaimer: We may have changed some of the codes for better functionality.*
 
