@@ -1,3 +1,9 @@
+[![GitHub license](https://img.shields.io/github/license/rishabhlakhotia/CSE-Lab-Manual.svg)](https://github.com/rishabhlakhotia/CSE-Lab-Manual/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/rishabhlakhotia/CSE-Lab-Manual.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/rishabhlakhotia/CSE-Lab-Manual/stargazers/)
+[![GitHub forks](https://img.shields.io/github/forks/rishabhlakhotia/CSE-Lab-Manual.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/rishabhlakhotia/CSE-Lab-Manual/network/)
+[![GitHub contributors](https://img.shields.io/github/contributors/rishabhlakhotia/CSE-Lab-Manual.svg)](https://GitHub.com/rishabhlakhotia/CSE-Lab-Manual/graphs/contributors/)
+[![HitCount](http://hits.dwyl.com/rishabhlakhotia/CSE-Lab-Manual.svg)](http://hits.dwyl.com/rishabhlakhotia/CSE-Lab-Manual)
+
 # CSE Lab Manual
 This repsitory contains all the Lab programs encountered in the Autonomous curriculum of Dayananda Sagar College of Engineering.
 
